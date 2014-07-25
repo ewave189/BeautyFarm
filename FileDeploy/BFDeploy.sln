@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDeploy", "ELCDeploy\FileDeploy.csproj", "{13252832-ABCF-40CA-A11F-230E7FFF04E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileLibrary", "FileLibrary\FileLibrary.csproj", "{94D9B942-BDDD-4062-B273-A885E345D706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileServer", "FileServer\FileServer.csproj", "{030B1A98-8036-4923-A414-BE393DA0B3F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BFFileServer", "ELCFileServer\BFFileServer.csproj", "{C966CD78-C5B4-4653-B236-C85C0C8B83E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSql", "TestSql\TestSql.csproj", "{448793D0-C81A-4C1C-B923-F461F5316503}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://10.4.62.82:8080/tfs/beautyfarm
+		SccProjectUniqueName0 = ELCDeploy\\FileDeploy.csproj
+		SccProjectName0 = ELCDeploy
+		SccLocalPath0 = ELCDeploy
+		SccProjectUniqueName1 = ELCFileServer\\BFFileServer.csproj
+		SccProjectName1 = ELCFileServer
+		SccLocalPath1 = ELCFileServer
+		SccProjectUniqueName2 = FileLibrary\\FileLibrary.csproj
+		SccProjectName2 = FileLibrary
+		SccLocalPath2 = FileLibrary
+		SccProjectUniqueName3 = FileServer\\FileServer.csproj
+		SccProjectName3 = FileServer
+		SccLocalPath3 = FileServer
+		SccProjectUniqueName4 = TestSql\\TestSql.csproj
+		SccProjectName4 = TestSql
+		SccLocalPath4 = TestSql
+		SccLocalPath5 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13252832-ABCF-40CA-A11F-230E7FFF04E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13252832-ABCF-40CA-A11F-230E7FFF04E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13252832-ABCF-40CA-A11F-230E7FFF04E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13252832-ABCF-40CA-A11F-230E7FFF04E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D9B942-BDDD-4062-B273-A885E345D706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D9B942-BDDD-4062-B273-A885E345D706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D9B942-BDDD-4062-B273-A885E345D706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D9B942-BDDD-4062-B273-A885E345D706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030B1A98-8036-4923-A414-BE393DA0B3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030B1A98-8036-4923-A414-BE393DA0B3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030B1A98-8036-4923-A414-BE393DA0B3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030B1A98-8036-4923-A414-BE393DA0B3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C966CD78-C5B4-4653-B236-C85C0C8B83E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C966CD78-C5B4-4653-B236-C85C0C8B83E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C966CD78-C5B4-4653-B236-C85C0C8B83E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C966CD78-C5B4-4653-B236-C85C0C8B83E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448793D0-C81A-4C1C-B923-F461F5316503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448793D0-C81A-4C1C-B923-F461F5316503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448793D0-C81A-4C1C-B923-F461F5316503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448793D0-C81A-4C1C-B923-F461F5316503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
